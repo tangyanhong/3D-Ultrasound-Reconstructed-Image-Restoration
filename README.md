@@ -28,7 +28,7 @@
 
 本项目结构如下图所示：
 
-![Project Structure](./pics/project_structure.png)
+![Project Structure](.\pics\project_structure.png)
 
 1. 数据迁移可以将自然图像中的婴幼儿图片转化为三维超声重建图像的风格。将这些由风格迁移生成的图像与原始三位超声重建图像结合，可以得到扩充后的数据集。
 2. 使用传统方法对数据进行处理，得到的结果可以作为预处理输入到深度学习方法中。
@@ -79,3 +79,19 @@
     - 将所有预训练模型放置在路径 `./PSFRGAN/pretrain_models` 下。
 
 ## 测试运行
+
+可以使用以下命令来测试运行：
+
+```
+python run.py
+```
+
+项目各部分测试运行方式参见本项目子模块中的说明。
+
+## 结果展示
+
+<center><b>超声重建图像处理前后对比</b></center>
+
+<center>
+	<img src='./PSFRGAN/test_dir/147.png' width=300><img src='./PSFRGAN/test_result/HQ/000.jpg' width=300>
+</center>
