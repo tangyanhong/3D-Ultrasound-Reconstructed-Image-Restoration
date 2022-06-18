@@ -1,0 +1,9 @@
+[submodule "PSFRGAN"]
+	path = PSFRGAN
+	url = https://github.com/Rhinophant/PSFRGAN-for-3D-Ultrasound-Reconstructed-Images.git
+[submodule "Traditional_Preprocessing"]
+	path = Traditional_Preprocessing
+	url = https://github.com/Meowemeow/llf-for-3D-Ultrasound-Reconstructed-Images.git
+[submodule "Data_Transfer"]
+	path = Data_Transfer
+	url = https://github.com/x418-22n/style-transfer-in-ultrasound-reconstruction.git
